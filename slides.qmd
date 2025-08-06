@@ -17,7 +17,7 @@ history: false
 
 
 
-## [Life-course processes<br>as cause and effect<br>of macro-level changes<br>in gun violence]{.r-fit-text} {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.4"}
+## [Life-course processes</br>as cause and effect</br>of macro-level changes</br>in gun violence]{.r-fit-text} {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.4"}
 
 
 &nbsp;
