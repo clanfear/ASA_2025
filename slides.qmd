@@ -8,6 +8,8 @@ format:
     width: 1200
     height: 800
     auto-stretch: true
+    title-slide: false
+    pagetitle: "Life course processes as cause and effect of macro-level changes in gun violence"
 editor: source
 mouse-wheel: true
 history: false
@@ -15,7 +17,7 @@ history: false
 
 
 
-## [Life-course processes<br>as cause and effect<br>of macro-level changes in gun violence]{.r-fit-text} {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.4"}
+## [Life-course processes<br>as cause and effect<br>of macro-level changes<br>in gun violence]{.r-fit-text} {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.4"}
 
 
 &nbsp;
@@ -75,6 +77,7 @@ cdc_mortality |>
             aes(label = type), 
             family = plot_font,
             size = 6) +
+  scale_y_continuous(breaks = c(0,3,6,9), labels = c(" 0", " 3", " 6", " 9")) +
   labs(x = NULL, y = "Rates per 100,000", caption = "Source: CDC WONDER") +
   theme_minimal(base_size = 24) +
   theme(panel.grid = element_blank(),
@@ -85,7 +88,7 @@ cdc_mortality |>
         legend.position = "none")
 ```
 
-Spiked recently and increasingly involves guns
+Peaked in 1990s and 2020-2021 and increasingly involves guns
 
 
 ## Homicide in Chicago {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.2"}
@@ -111,25 +114,25 @@ chicago_rates_year |>
 
 Exaggerated in cities like Chicago, Philadelphia, Dallas
 
-## The agenda {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.2"}
+## Research agenda {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.2"}
 
 &nbsp;
 
 . . .
 
-How have these trends in gun violence translated into personal exposure to gun violence?
+How have these changes in gun violence translated into personal exposure to gun violence?
 
 &nbsp;
 
 . . .
 
-What are the effects of these exposures on health and behavior?
+What are the effects of these changes in gun violence on individuals?
 
 &nbsp;
 
 . . .
 
-**What is driving these trends in the first place?**
+**What is driving these changes in the first place?**
 
 
 ## {background-image="img/clay-banks-nsAn3nSW5T0-unsplash.jpg" background-opacity="0.2"}
@@ -211,144 +214,13 @@ What are the effects of these exposures on health and behavior?
 
 . . .
 
-:::: {style="text-align: center;"}
-
-*What drives each pathway?*
-
-::::
-
-. . .
+&nbsp;
 
 :::: {style="text-align: center;"}
 
-*Let's focus one key factor*
+*How does this relate to macro-level changes in gun violence?*
 
 ::::
-
-# [Legal Cynicism and Cun Carrying]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.4"}
-
-## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
-
-:::: {.columns}
-
-::: {.column width="55%"}
-
-> a cultural frame in which people perceive the law as **illegitimate**, **unresponsive**, and **ill equipped** to ensure public safety.
-
-> when **calling the police is not a viable option** to remedy one’s problems—individuals may instead **resolve their grievances by their own means**
-
-:::
-
-::: {.column width="45%"}
-
-![](img/kirk-papachristos.png)
-
-:::
-
-::::
-
-
-
-##  {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
-
-:::: {.columns}
-
-::: {.column width="60%"}
-
->  The inclination to violence springs from the circumstances of life... The code of the street is actually a cultural adaptation to a **profound lack of faith in the police** and the judicial system
-
-Guns also:
-
-* Confer status
-* Deter threats
-* Facilitate dominance
-
-:::
-
-::: {.column width="40%"}
-
-![](img/anderson.jpg)
-
-:::
-
-::::
-
-::: {style="text-align: center;"}
-
-*Concentrated disadvantage &rarr; **alienation** from institutions*
-
-:::
-
-## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
-
-:::: {.columns}
-
-::: {.column width="65%"}
-
-> ... two racially differentiated beliefs promote legal gun carrying: The belief common among most carriers that police are **inadequate protectors**—and thus one may carry a gun as protection from crime—and the belief more common among non-white carriers that police are **coercive violators** of rights—and thus one may carry a gun as protection from and resistance to the oppressive state (Lanfear et al. 2024)
-
-:::
-
-::: {.column width="35%"}
-
-![](img/carlson.jpg)
-
-:::
-
-::::
-
-
-::: {style="text-align: center;"}
-
-*Linked to diffuse social and economic insecurities*
-
-:::
-
-## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
-
-![](img/trust-police_sampson.png)
-
-## [Legal cynicism, guns, and emergence]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
-
-
-
-```{dot}
-//| fig-width: 8
-digraph G{
-  graph [layout=neato, bgcolor="transparent"]
-  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
-  edge [color="white"]
-  
-  
-  legal [pos = "0,  4.!", label = "Legal\ncynicism"]
-  carry [pos = "1,  2.5!", label = "Gun carry"]
-  trust [pos = "0,  1!", label = "Generalized\ndisrust"]
-  sit [pos = "4,  2.5!", label = "Conflict\nsituations"]
-  viol [pos = "5,  4!", label = "Violence"]
-  
-  options [pos = "2.25,  3.6!", label = "Perceived\noptions", fontcolor = yellow]
-  lethal [pos = "2.25,  2.5!", label = "Lethal\npotential", fontcolor = yellow]
-  fear [pos = "2.25,  1.35!", label = "Fear and\nsuspicion", fontcolor = yellow]
-  emergence [pos = "5.25,  3.25!", label = "Emergence", fontcolor = yellow]
-  
-  legal -> carry
-  trust -> carry
-  carry -> sit
-  legal -> sit
-  trust -> sit
-  sit -> viol
-}
-```
-
-
-::: {style="text-align: center;"}
-
-*Legal cynicism, trust, and gun carry shape conflict situations in complex ways*
-
-:::
-
-# How does life-course variation in carrying impact rates of violence? {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.4"}
-
 
 
 ## [Changing age distribution of homicide]{.r-fit-text}
@@ -444,7 +316,7 @@ ggplot(aes(x = age, y = pr, fill = stage)) +
 ::: {.fragment fragment-index=2}
 
 * Slow accumulation:
-   * *Deindustrialization, segregation, lead, etc.*
+   * *Deindustrialization, mass incarceration etc.*
 
 :::
 
@@ -491,9 +363,139 @@ ggplot(aes(x = age, y = pr, fill = stage)) +
 
 ::: {.fragment fragment-index=4 style="text-align: center;"}
 
-**Both:** Stark sex and race heterogeneity
+Both: **Legal cynicism** and **distrust**
 
 :::
+
+
+
+# [Legal Cynicism, Distrust, and Gun Carrying]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.4"}
+
+## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+:::: {.columns}
+
+::: {.column width="55%"}
+
+> a cultural frame in which people perceive the law as **illegitimate**, **unresponsive**, and **ill equipped** to ensure public safety.
+
+> when **calling the police is not a viable option** to remedy one’s problems—individuals may instead **resolve their grievances by their own means**
+
+:::
+
+::: {.column width="45%"}
+
+![](img/kirk-papachristos.png)
+
+:::
+
+::::
+
+
+
+## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+> ... two racially differentiated beliefs promote legal gun carrying: The belief common among most carriers that police are **inadequate protectors**—and thus one may carry a gun as protection from crime—and the belief more common among non-white carriers that police are **coercive violators** of rights—and thus one may carry a gun as protection from and resistance to the oppressive state (Lanfear et al. 2024)
+
+:::
+
+::: {.column width="35%"}
+
+![](img/carlson.jpg)
+
+:::
+
+::::
+
+
+::: {style="text-align: center;"}
+
+*Linked to diffuse social and economic insecurities*
+
+:::
+
+
+## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+
+![](img/trust-police_sampson_cropped.png){fig-align="center"}
+
+::: {style="text-align: center;"}
+
+> Despite having much higher arrest rates, the cohort born in 1987 has greater levels of trust in police and neighbors at age twenty-five than counterparts born just nine years later, adjusting for background factors and early-life conditions (Sampson 2026)
+
+:::
+
+## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+![](img/stroebe_wide.png)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+> Stroebe et al. (2017) find protective gun ownership is primarily driven by “the belief that **the world is a dangerous and unstable place**, populated by **bad people**, and that society is at the brink of collapse.”
+
+:::
+
+::: {.column width="50%"}
+> Low trust... may increase the likelihood of interpreting others’ actions as **intentional and offensive**, a key antecedent of interpersonal conflict and homicide (Luckenbill 1977; Ludwig 2025). 
+
+:::
+
+
+::::
+
+## Cynicism, distrust, and guns {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+> legal cynicism promotes concealed gun carrying as a response to **perceived insecurity**.
+
+> legal cynicism in the 1990s was primarily a neighborhood phenomenon because the factors producing it were local to neighborhoods; in contrast... legal cynicism of the mid-2010s onward is rooted in **macrosocial changes**...
+
+> These changes were shaped by a structural legal context forged in **distinctly American gun culture**.
+
+
+## [Legal cynicism, distrust, and violence]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
+
+&nbsp;
+
+```{dot}
+//| fig-width: 9
+digraph G{
+  graph [layout=neato, bgcolor="transparent"]
+  node [shape = plaintext, fontname="Open Sans", fontcolor="white"]
+  edge [color="white"]
+  
+  
+  legal [pos = "0,  4.!", label = "Legal\ncynicism"]
+  carry [pos = "1,  2.5!", label = "Gun carry"]
+  trust [pos = "0,  1!", label = "Generalized\ndisrust"]
+  sit [pos = "4,  2.5!", label = "Conflict\nsituations"]
+  viol [pos = "5,  4!", label = "Violence"]
+  
+  options [pos = "2.25,  3.6!", label = "Perceived\noptions", fontcolor = yellow]
+  lethal [pos = "2.25,  2.5!", label = "Lethal\npotential", fontcolor = yellow]
+  fear [pos = "2.25,  1.35!", label = "Fear and\nsuspicion", fontcolor = yellow]
+  emergence [pos = "5.25,  3.25!", label = "Emergence", fontcolor = yellow]
+  
+  legal -> carry
+  trust -> carry
+  carry -> sit
+  legal -> sit
+  trust -> sit
+  sit -> viol
+}
+```
+
+
+
+# How does life-course variation in carrying impact rates of violence? {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.4"}
+
+
 
 
 
@@ -509,12 +511,12 @@ digraph G{
   edge [color="white"]
   
   
-  bsc1 [pos = "0,  4.5!", label = "Social\nChange"]
+  bsc1 [pos = "0,  4.5!", label = "Social\ncontext"]
   bsi [pos = "1,  2.5!", label = "Age-graded\ncontexts"]
-  bsa [pos = "4,  2.5!", label = "Crime and\npunishment"]
-  bsc2 [pos = "5,  4.5!", label = "Future social\nchange / contexts"]
+  bsa [pos = "4,  2.5!", label = "Situated\nbehavior"]
+  bsc2 [pos = "5,  4.5!", label = "New social\ncontext"]
   
-  bsc1bsc2 [pos = "2.5,  4.75!", label = "Macro-historical", fontcolor = yellow]
+  bsc1bsc2 [pos = "2.5,  4.75!", label = "Historical change", fontcolor = yellow]
   bsabsc2 [pos = "-0.25,  3.5!", label = "Cohort\ndifferentiation", fontcolor = yellow]
   bsibsa [pos = "2.5,  2.25!", label = "Life course", fontcolor = yellow]
   bsc1bsi [pos = "5.25,  3.5!", label = "Cohort\ndynamics", fontcolor = yellow]
@@ -550,9 +552,9 @@ digraph G{
   edge [color="white"]
   
   btitle [pos = "1.5,  5.25!", label = "Adolescent Process", fontcolor = yellow]
-  bsc1 [pos = "0,  4.5!", label = "Local\ninstability"]
-  bsi [pos = "0.5,  3!", label = "Specific fear\n& cynicism\n(Risky situations)"]
-  bsa [pos = "2.5,  3!", label = "Youth gun\ncarrying\n(Illegal)"]
+  bsc1 [pos = "0,  4.5!", label = "Local instability\n(Risky situations)"]
+  bsi [pos = "0.5,  3!", label = "Specific distrust\n& cynicism"]
+  bsa [pos = "2.5,  3!", label = "Youth gun\ncarrying"]
   bsc2 [pos = "3,  4.5!", label = "Increased\nyouth\nviolence"]
 
   bsc1 -> bsi
@@ -578,9 +580,9 @@ digraph G{
   edge [color="white"]
   
   title [pos = "1.5,  2.25!", label = "Adult Process", fontcolor = yellow]
-  sc1 [pos = "0,  1.5!", label = "Societal\ninstability"]
-  si [pos = "0.5,  0!", label = "General fear\n& cynicism\n(Risky world)"]
-  sa [pos = "2.5,  0!", label = "Adult gun\ncarrying\n(Mostly legal)"]
+  sc1 [pos = "0,  1.5!", label = "Societal instability\n(Risky world)"]
+  si [pos = "0.5,  0!", label = "Diffuse distrust\n& cynicism"]
+  sa [pos = "2.5,  0!", label = "Adult gun\ncarrying"]
   sc2 [pos = "3,  1.5!", label = "Increased\nadult\nviolence"]
   
   sc1 -> si
@@ -598,7 +600,7 @@ digraph G{
 
 ::: {.fragment style="text-align: center;"}
 
-*Argument: 2021 was not a reprise of 1999, rather both were the result of **differential activation** of processes responding to macrosocial context*
+*2021 was not a reprise of 1999; both were the result of **differential activation** of processes responding to macrosocial context*
 
 :::
 
@@ -621,8 +623,7 @@ digraph G{
 :::
 
 ::: {.fragment fragment-index=2}
-* Similar offender/victim
-   * Acquaintances
+* Younger, more similar offender/victim
 
 :::
 
@@ -650,8 +651,7 @@ digraph G{
 
 :::
 ::: {.fragment fragment-index=2}
-* Less similar offender/victim
-   * Strangers
+* Older, less similar offender/victim
 
 :::
 ::: {.fragment fragment-index=3}
