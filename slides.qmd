@@ -114,19 +114,19 @@ chicago_rates_year |>
 
 Exaggerated in cities like Chicago, Philadelphia, Dallas
 
-## Research agenda {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.2"}
+## Questions {background-image="img/stephan-cassara-KnAIsBuitGg-unsplash.jpg" background-opacity="0.2"}
 
 &nbsp;
 
 . . .
 
-How have these changes in gun violence translated into personal exposure to gun violence?
+How have these changes in gun violence translated into personal **exposure to gun violence**?
 
 &nbsp;
 
 . . .
 
-What are the effects of these changes in gun violence on individuals?
+How are these changes related to individuals' **gun behaviors**?
 
 &nbsp;
 
@@ -165,7 +165,6 @@ What are the effects of these changes in gun violence on individuals?
 * Is there **continuity** in carry over the life course?
 
    * Are adolescent carriers still carrying today?
-   * Does it differ for legal and illegal carry? 
 
 . . .
 
@@ -369,7 +368,7 @@ Both: **Legal cynicism** and **distrust**
 
 
 
-# [Legal Cynicism, Distrust, and Gun Carrying]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.4"}
+# [Legal cynicism, distrust,</br>and gun carrying]{.r-fit-text}{background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.4"}
 
 ## {background-image="img/benjamin-suter-mlOvsx4xdaA-unsplash.jpg" background-opacity="0.2"}
 
@@ -426,7 +425,7 @@ Both: **Legal cynicism** and **distrust**
 
 ::: {style="text-align: center;"}
 
-> Despite having much higher arrest rates, the cohort born in 1987 has greater levels of trust in police and neighbors at age twenty-five than counterparts born just nine years later, adjusting for background factors and early-life conditions (Sampson 2026)
+> Despite having much higher arrest rates, the cohort born in 1987 has greater levels of **trust in police and neighbors** at age twenty-five than counterparts born just nine years later, adjusting for background factors and early-life conditions (Sampson 2026)
 
 :::
 
@@ -600,7 +599,7 @@ digraph G{
 
 ::: {.fragment style="text-align: center;"}
 
-*2021 was not a reprise of 1999; both were the result of **differential activation** of processes responding to macrosocial context*
+*2021 was not a reprise of the 1990s; both were the result of **differential activation** of processes responding to macrosocial context*
 
 :::
 
@@ -687,56 +686,38 @@ digraph G{
 
 ::::
 
-## The future {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## A research agenda {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
 
+&nbsp;
+
+**Gun violence**
+
+* Changing concentrations and contexts
+* Heterogeneity, carrying, and the new decline
 
 . . .
 
-**Expanding cynicism**
+**Cynicism, trust, and the life course**
 
-* From local to national focus
-* Alienation without concentrated disadvantage
+* Legal cynicism and gun carrying across eras
+* Formative years and consequences for legal cynicism
+* Social media and unstructured socialization
 
-. . .
+
+## A research agenda {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+
+&nbsp;
 
 **National politics**
 
-* Violation of letter and spirit of law
 * Declining legitimacy of institutions
+* Cynicism, gun culture, and right nationalism
 
 . . .
 
-**The life course**
+&nbsp;
 
-* When are formative years for legal cynicism?
-* What are the long-term macrosocial consequences?
-
-
-
-## New questions {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
-
-. . .
-
-* How do we test empirically?
-
-  * Alternate explanations?
-  * Integrating life course with changing neighborhood effects
-
-. . .
-
-* Is it changes in context or changes in meaning of contexts?
-
-   * Gendered and racialized impacts and reactions
-
-. . .
-
-* How does this relate to broader macrosocial change?
-
-   * *Gun culture*
-   * *Social media*
-   * *Polarization*
-   * *Unstructured socialization*
-
+> ... we suggest that there is value, as initiated here, to continued theorizing on life-course processes as cause and effect of macro changes—not just in gun violence but crime more generally. 
 
 
 ## Feedback and questions {background-image="img/benjamin-suter-mpLex62zVKQ-unsplash.jpg" background-opacity="0.4"}
