@@ -132,7 +132,7 @@ How are these changes related to individuals' **gun behaviors**?
 
 . . .
 
-**What is driving these changes in the first place?**
+**How are gun behaviors driving these changes in violence?**
 
 
 ## {background-image="img/clay-banks-nsAn3nSW5T0-unsplash.jpg" background-opacity="0.2"}
@@ -152,7 +152,7 @@ How are these changes related to individuals' **gun behaviors**?
 
 
 
-## {background-image="img/pedro-lastra-5Bv3EcijAl4-unsplash.jpg" background-opacity="0.2"}
+## {background-image="img/clay-banks-nsAn3nSW5T0-unsplash.jpg" background-opacity="0.2"}
 
 ![](img/sa_cropped.png){fig-align="center"}
 
@@ -173,7 +173,7 @@ How are these changes related to individuals' **gun behaviors**?
    * Does it differ for adolescents and adults?
 
 
-## [Two pathways of gun carrying]{.r-fit-text}{background-image="img/pedro-lastra-5Bv3EcijAl4-unsplash.jpg" background-opacity="0.2"}
+## [Two pathways of gun carrying]{.r-fit-text}{background-image="img/clay-banks-nsAn3nSW5T0-unsplash.jpg" background-opacity="0.2"}
 
 &nbsp;
 
@@ -240,7 +240,7 @@ How are these changes related to individuals' **gun behaviors**?
 
 
 
-## [Gun homicide is increasingly committed by adults]{.r-fit-text}{background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## [Gun homicide is increasingly committed by adults]{.r-fit-text}{background-image="img/pedro-lastra-5Bv3EcijAl4-unsplash.jpg" background-opacity="0.2"}
 
 
 ```{r handgun-homicide}
@@ -298,7 +298,7 @@ ggplot(aes(x = age, y = pr, fill = stage)) +
 
 
 
-## [Two similar periods of high gun violence, except...]{.r-fit-text}{background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## [Two similar periods of high gun violence, except...]{.r-fit-text}{background-image="img/pedro-lastra-5Bv3EcijAl4-unsplash.jpg" background-opacity="0.2"}
 
 ::::: {.columns}
 
@@ -686,7 +686,7 @@ digraph G{
 
 ::::
 
-## A research agenda {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## A research agenda {background-image="img/benjamin-suter-mpLex62zVKQ-unsplash.jpg" background-opacity="0.2"}
 
 &nbsp;
 
@@ -704,7 +704,7 @@ digraph G{
 * Social media and unstructured socialization
 
 
-## A research agenda {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## A research agenda {background-image="img/benjamin-suter-mpLex62zVKQ-unsplash.jpg" background-opacity="0.2"}
 
 &nbsp;
 
@@ -737,9 +737,9 @@ For more about the PHDCN+:
 | <https://sites.harvard.edu/phdcn/>
 | [https://doi.org/10.1007/s40865-022-00203-0](https://sites.harvard.edu/phdcn/)
 
-# Appendix {background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.4"}
+# Appendix {background-image="img/benjamin-suter-mpLex62zVKQ-unsplash.jpg" background-opacity="0.4"}
 
-## [Not attributable to age composition]{.r-fit-text}{background-image="img/joel-mott-s-rsM-AktbA-unsplash.jpg" background-opacity="0.2"}
+## [Not attributable to age composition]{.r-fit-text}{background-image="img/benjamin-suter-mpLex62zVKQ-unsplash.jpg" background-opacity="0.2"}
 
 ```{r}
 load("./data/derived/pop_comp_1995.RData")
